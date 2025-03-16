@@ -23,7 +23,8 @@ You can create virtual enviroment for this code to run or just do it locally:
    pip install instaloader
 
 Both of those code should be on the same directory(If you wanna make it globally accessible by telegram bot )
-Make sure you have a directory structure where the bot can create a downloads folder
+Make sure you have a directory structure where the bot can create a 'downloads' folder
+For the telegram future you have to go to the @BotFather,create a new bot then take this api paste into the token section.(Note:i did this code for side project you shouldn't put your api token like this,you have to make sure it is in the safe place)
 
 #   Additional Notes:
 The bot needs permissions to create and delete directories/files in its working directory
