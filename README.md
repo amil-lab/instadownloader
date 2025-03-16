@@ -9,9 +9,9 @@ You can create virtual enviroment for this code to run or just do it locally:
 
    # Activate virtual environment
    
-   # On Windows:
+   On Windows:
    venv\Scripts\activate
-   # On macOS/Linux:
+   On macOS/Linux:
    source venv/bin/activate
 
    # Install required packages
@@ -21,7 +21,7 @@ You can create virtual enviroment for this code to run or just do it locally:
 Both of those code should be on the same directory(If you wanna make it globally accessible by telegram bot )
 Make sure you have a directory structure where the bot can create a downloads folder
 
-Additional Notes:
+#Additional Notes:
 The bot needs permissions to create and delete directories/files in its working directory
 Make sure your system has proper media codec support if you plan to handle video files
 The Instagram API access is done through instaloader, which doesn't require authentication for public posts
@@ -36,9 +36,7 @@ python telegram_bot.py
 
 
 
-
-
-# DISCLAIMER: 
-# This code is provided "as is" without warranty of any kind, express or implied. 
-# The author(s) are not responsible for any damages, losses, or consequences that may arise from the use or misuse of this code.
-# Use at your own risk.
+#DISCLAIMER: 
+ This code is provided "as is" without warranty of any kind, express or implied. 
+ The author(s) are not responsible for any damages, losses, or consequences that may arise from the use or misuse of this code.
+ Use at your own risk.
