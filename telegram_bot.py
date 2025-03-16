@@ -2,9 +2,13 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 import os
 from instadownloader import download_instagram_post
+from dotenv import load_dotenv
 
-# Replace with your bot token
-TOKEN = "ENTER_YOUR_TOKEN"
+# Load environment variables
+load_dotenv()
+TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
+if not TOKEN:
+    raise ValueError("Bot token not found in environment variables!")
 
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
