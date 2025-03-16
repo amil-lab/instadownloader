@@ -22,9 +22,19 @@ You can create virtual enviroment for this code to run or just do it locally:
    
    pip install instaloader
 
+   pip install python-dotenv
+
+For the telegram future you have to go to the @BotFather,create a new bot then take this api paste into the token section.
+
+Keep the Token secure we have to create enviorement.Create a '.env' file and place the token that you got from the @BotFather.Add .env to your .gitignore file to prevent it from being committed.
+
 Both of those code should be on the same directory(If you wanna make it globally accessible by telegram bot )
+
 Make sure you have a directory structure where the bot can create a 'downloads' folder
-For the telegram future you have to go to the @BotFather,create a new bot then take this api paste into the token section.(Note:i did this code for side project you shouldn't put your api token like this,you have to make sure it is in the safe place)
+
+For the telegram future you have to go to the @BotFather,create a new bot then take this api paste into the token section
+
+
 
 #   Additional Notes:
 The bot needs permissions to create and delete directories/files in its working directory
@@ -43,5 +53,7 @@ python telegram_bot.py
 
 # DISCLAIMER: 
  This code is provided "as is" without warranty of any kind, express or implied. 
+ 
  The author(s) are not responsible for any damages, losses, or consequences that may arise from the use or misuse of this code.
+ 
  Use at your own risk.
