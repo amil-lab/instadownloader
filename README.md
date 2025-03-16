@@ -18,12 +18,19 @@ You can create virtual enviroment for this code to run or just do it locally:
    source venv/bin/activate
 
    # Install required packages
+
    pip install python-telegram-bot
    
    pip install instaloader
 
    pip install python-dotenv
 
+   Or just run this code after getting the Requirements.txt
+
+   pip install -r requirements.txt
+
+
+# Telegram Future
 For the telegram future you have to go to the @BotFather,create a new bot then take this api paste into the token section.
 
 Keep the Token secure we have to create enviorement.Create a '.env' file and place the token that you got from the @BotFather.Add .env to your .gitignore file to prevent it from being committed.
@@ -32,7 +39,7 @@ Both of those code should be on the same directory(If you wanna make it globally
 
 Make sure you have a directory structure where the bot can create a 'downloads' folder
 
-For the telegram future you have to go to the @BotFather,create a new bot then take this api paste into the token section
+You have to go to the @BotFather,create a new bot then take this api paste into the token section
 
 
 
