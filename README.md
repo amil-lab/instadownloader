@@ -36,7 +36,7 @@ python telegram_bot.py
 
 
 
-#DISCLAIMER: 
+# DISCLAIMER: 
  This code is provided "as is" without warranty of any kind, express or implied. 
  The author(s) are not responsible for any damages, losses, or consequences that may arise from the use or misuse of this code.
  Use at your own risk.
